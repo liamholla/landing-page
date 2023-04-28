@@ -14,10 +14,14 @@ body{
     align-items: center;
 }
 
+.hero-container{
+    max-width: 1000px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    padding-top: 20px;
 }
 
 .header-links {
@@ -31,6 +35,14 @@ padding: 10px;
 color: #e5e7eb;
 font-size: 19px;
 }
+
+.header-links a:hover {
+    text-decoration: none;
+    padding: 10px;
+    color: #e5e7eb;
+    font-size: 19px;
+    font-weight: 800;
+    }
 
 .header-logo {
     display: flex;
@@ -61,6 +73,12 @@ font-size: 19px;
     justify-content: center;
 }
 
+.hero-main-right img{
+    width:500px;
+    height: 300px;
+    border-radius: 8px;
+}
+
 .hero-title{
     font-size: 48px;
     font-weight: 800;
@@ -79,8 +97,8 @@ font-size: 19px;
     border-radius: 8px;
     cursor: pointer;
     width: fit-content;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     transition-duration: 0.4s;
@@ -95,9 +113,165 @@ font-size: 19px;
     border-radius: 8px;
     cursor: pointer;
     width: fit-content;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     transition-duration: 0.4s;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+}
+
+.image-cards{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(163, 163, 163);
+    font-size: 16px;
+}
+
+.card p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-container{
+    max-width: 1000px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-author{
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.signup{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color:#e5e7eb
+}
+
+.signup-text .title{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+.signup-text .text{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border-width: 4px;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+
+.signup-button:hover {
+    background-color: #e5e7eb;
+    color: #3882f6;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition-duration: 0.4s;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
